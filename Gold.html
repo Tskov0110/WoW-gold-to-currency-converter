@@ -1,21 +1,31 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Exercise 0</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Converter</title>
 
-  <script src="Gold.js"></script>
+    <script src="Gold.js"></script>
 </head>
 
 <body>
-<h1>Title</h1>
-<div>
-    <p>What is a token worth?</p>
-    <input id="tokenvalue" />
-    <button id="btn">Calculate</button>
-</div>
+    <section>
+        <h1 id="Title">Converter</h1>
+        <div>
+            <p>What is a WoW-token worth?</p>
+            <input type="number" id="tokenValue" />
+            <button id="btn" onclick="convert()">Calculate</button>
+        </div>
+        <div>
+            <h2 id="presentWorth"></h2>
+            <h3 id="1eurToGold"></h3>
+            <h3 id="1dkkToGold"></h3>
+        </div>
+    </section>
+    <section>
+
+    </section>
 </body>
 
 </html>
